@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1562131678 source:/home/pi/Documents/gpiozerocpp/src/gpiozerocpp.cpp
+	<gpiozerocpp/gpiozerocpp.hpp>
+	<LED.hpp>
+	<PWMLED.hpp>
+
+1562064006 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp.hpp
+	<wiringPi.h>
+
+1562051107 /home/pi/Documents/gpiozerocpp/include/LED.hpp
+
+1562051107 source:/home/pi/Documents/gpiozerocpp/src/LED.cpp
+	"LED.hpp"
+
+1562160962 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/gpiozerocpp.hpp
+	<pigpio.h>
+
+1562160962 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/LED.hpp
+	<pigpio.h>
+	<unistd.h>
+
+1562160962 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/PWMLED.hpp
+	<pigpio.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
