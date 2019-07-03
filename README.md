@@ -9,7 +9,9 @@ Example:
 
 <image src=https://github.com/andrew98450/gpiozerocpp/blob/0.1-preview/img/example.png>
   
-<embed src=https://github.com/andrew98450/gpiozerocpp/blob/0.1-preview/img/demo.mp4>
+<video width="320" height="240" controls>  
+  <source src=https://github.com/andrew98450/gpiozerocpp/blob/0.1-preview/img/demo.mp4>
+</video>
 
 
 
