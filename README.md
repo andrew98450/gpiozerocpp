@@ -1,7 +1,11 @@
 # gpiozerocpp
 gpiozero C/C++ Library
 
-Based pigpio C++ Library
+Based pigpio C++ Library,Please install pigpio C++ Library
+
+apt command:
+
+apt install libpigpio-dev pigpio
 
 This Library is Preview Version
 
