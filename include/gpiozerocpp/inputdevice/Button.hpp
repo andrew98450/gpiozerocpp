@@ -6,17 +6,10 @@ class Button
     protected:
         int pin = 0;
     public:
-        Button(int pin,bool pull_up)
+        Button(int pin)
         {
             this->pin = pin;
-            if(pull_up == true)
-            {
-                gpioSetPullUpDown(this->pin,PI_PUD_UP);
-            }
-            else
-            {
-                gpioSetPullUpDown(this->pin,PI_PUD_DOWN);
-            }
+            gpioSetPullUpDown(this->pin,PI_PUD_UP);
             gpioSetMode(this->pin,PI_INPUT);
         }
         bool is_pressed()
@@ -30,13 +23,13 @@ class Button
                 return false;
             }
         }
-        void wait_for_press(int timeout)
+        void wait_for_press(double timeout)
         {
-            while(gpioRead(pin) != 0){ gpioDelay(timeout); }
+            while(gpioRead(pin) != 0){ time_sleep(timeout); }
         }
-        void wait_for_release(int timeout)
+        void wait_for_release(double timeout)
         {
-            while(gpioRead(pin) != 1){ gpioDelay(timeout); }
+            while(gpioRead(pin) != 1){ time_sleep(timeout); }
         }
 };
 

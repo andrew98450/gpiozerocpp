@@ -1,8 +1,15 @@
 # depslib dependency file v1.0
-1562131678 source:/home/pi/Documents/gpiozerocpp/src/gpiozerocpp.cpp
+1562245556 source:/home/pi/Documents/gpiozerocpp/src/gpiozerocpp.cpp
 	<gpiozerocpp/gpiozerocpp.hpp>
 	<LED.hpp>
 	<PWMLED.hpp>
+	<Button.hpp>
+	<Relay.hpp>
+	<DistanceSensor.hpp>
+	<MotionSensor.hpp>
+	<InputDevice.hpp>
+	<OutputDevice.hpp>
+	<Buzzer.hpp>
 
 1562064006 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp.hpp
 	<wiringPi.h>
@@ -15,13 +22,30 @@
 1562160962 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/gpiozerocpp.hpp
 	<pigpio.h>
 
-1562160962 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/LED.hpp
+1562243917 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/LED.hpp
 	<pigpio.h>
-	<unistd.h>
 
-1562160962 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/PWMLED.hpp
+1562243957 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/PWMLED.hpp
 	<pigpio.h>
-	<stdio.h>
-	<stdlib.h>
-	<unistd.h>
+
+1562239727 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/DistanceSensor.hpp
+	<pigpio.h>
+
+1562230505 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/Button.hpp
+	<pigpio.h>
+
+1562243824 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/Relay.hpp
+	<pigpio.h>
+
+1562240357 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/MotionSensor.hpp
+	<pigpio.h>
+
+1562241207 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/InputDevice.hpp
+	<pigpio.h>
+
+1562244190 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/OutputDevice.hpp
+	<pigpio.h>
+
+1562246428 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/Buzzer.hpp
+	<pigpio.h>
 

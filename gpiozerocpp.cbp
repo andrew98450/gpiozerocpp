@@ -44,8 +44,14 @@
 		</Compiler>
 		<Unit filename="include/gpiozerocpp/gpiozerocpp.hpp" />
 		<Unit filename="include/gpiozerocpp/inputdevice/Button.hpp" />
+		<Unit filename="include/gpiozerocpp/inputdevice/DistanceSensor.hpp" />
+		<Unit filename="include/gpiozerocpp/inputdevice/InputDevice.hpp" />
+		<Unit filename="include/gpiozerocpp/inputdevice/MotionSensor.hpp" />
+		<Unit filename="include/gpiozerocpp/outputdevice/Buzzer.hpp" />
 		<Unit filename="include/gpiozerocpp/outputdevice/LED.hpp" />
+		<Unit filename="include/gpiozerocpp/outputdevice/OutputDevice.hpp" />
 		<Unit filename="include/gpiozerocpp/outputdevice/PWMLED.hpp" />
+		<Unit filename="include/gpiozerocpp/outputdevice/Relay.hpp" />
 		<Unit filename="src/gpiozerocpp.cpp" />
 		<Extensions>
 			<code_completion />

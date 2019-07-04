@@ -1,14 +1,12 @@
 #ifndef PWMLED_H
 #define PWMLED_H
 #include <pigpio.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
 using namespace std;
 class PWMLED
 {
     protected:
         int pin = 0;
+        int value = 100;
     public:
         PWMLED(int pin)
         {
@@ -16,7 +14,7 @@ class PWMLED
             gpioSetMode(this->pin,PI_OUTPUT);
             gpioSetPWMrange(this->pin,100);
         }
-        void blink(int time,int n)
+        void blink(double timeout ,int n)
         {
             if(n!=0)
             {
@@ -25,12 +23,12 @@ class PWMLED
                     for(int i=0;i<=100;i++)
                     {
                         gpioPWM(pin,i);
-                        gpioDelay(time);
+                        time_sleep(timeout);
                     }
                     for(int i=100;i>=0;i--)
                     {
                         gpioPWM(pin,i);
-                        gpioDelay(time);
+                        time_sleep(timeout);
                     }
                     n--;
                 }
@@ -42,12 +40,12 @@ class PWMLED
                     for(int i=0;i<=100;i++)
                     {
                         gpioPWM(pin,i);
-                        gpioDelay(time);
+                        time_sleep(timeout);
                     }
                     for(int i=100;i>=0;i--)
                     {
                         gpioPWM(pin,i);
-                        gpioDelay(time);
+                        time_sleep(timeout);
                     }
                 }
             }
@@ -60,9 +58,17 @@ class PWMLED
                 gpioPWM(pin,value);
             }
         }
+        void setValue(int value)
+        {
+            this->value = value;
+        }
+        int getValue()
+        {
+            return value;
+        }
         void on()
         {
-            gpioPWM(pin,100);
+            gpioPWM(pin,value);
         }
         void off()
         {

@@ -1,27 +1,26 @@
-#ifndef LED_H
-#define LED_H
+#ifndef BUZZER_H
+#define BUZZER_H
 #include <pigpio.h>
-using namespace std;
-class LED
+class Buzzer
 {
     protected:
         int pin = 0;
     public:
-        LED(int pin)
+        Buzzer(int pin)
         {
-           this->pin = pin;
-           gpioSetMode(this->pin,PI_OUTPUT);
+            this->pin = pin;
+            gpioSetMode(this->pin,PI_OUTPUT);
         }
-        void blink(double timeout,int n)
+        void beep(double on_time=0.5,double off_time=0.5,int n=0)
         {
             if(n!=0)
             {
                 while(n>0)
                 {
-                    gpioWrite(pin,0);
-                    time_sleep(timeout);
                     gpioWrite(pin,1);
-                    time_sleep(timeout);
+                    time_sleep(on_time);
+                    gpioWrite(pin,0);
+                    time_sleep(off_time);
                     n--;
                 }
             }
@@ -29,16 +28,12 @@ class LED
             {
                 while(true)
                 {
-                    gpioWrite(pin,0);
-                    time_sleep(timeout);
                     gpioWrite(pin,1);
-                    time_sleep(timeout);
+                    time_sleep(on_time);
+                    gpioWrite(pin,0);
+                    time_sleep(off_time);
                 }
             }
-        }
-        int getValue()
-        {
-            return gpioRead(pin);
         }
         void on()
         {
@@ -48,6 +43,10 @@ class LED
         {
             gpioWrite(pin,0);
         }
+        int getValue()
+        {
+            return gpioRead(pin);
+        }
 };
 
-#endif // LED_H
+#endif // BUZZER_H
