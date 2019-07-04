@@ -13,7 +13,7 @@ Using Raspberry Pi
 
 Example:
 
-<image src=https://github.com/andrew98450/gpiozerocpp/tree/0.1-alpha/img/example.png>
+<image src=https://github.com/andrew98450/gpiozerocpp/blob/0.1-alpha/img/example.png>
   
 <image src=https://github.com/andrew98450/gpiozerocpp/blob/0.1-alpha/img/example2.png>
   
