@@ -1,15 +1,15 @@
 # gpiozerocpp
-gpiozero C/C++ Library
+gpiozero C/C++ interface
 
-Based pigpio C++ Library,Please install pigpio C++ Library
-
-apt command:
+Based pigpio C++ Library,Please install pigpio C++ Library:
 
 apt install libpigpio-dev pigpio
 
 This Library is Preview Version
 
 Welcome to try and offer advice.
+
+Using Raspberry Pi
 
 Example:
 
