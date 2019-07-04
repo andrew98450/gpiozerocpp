@@ -1,6 +1,8 @@
 # gpiozerocpp
 gpiozero C/C++ Library
 
+Based pigpio C++ Library
+
 This Library is Preview Version
 
 Welcome to try and offer advice.
