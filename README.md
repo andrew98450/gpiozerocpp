@@ -5,7 +5,7 @@ Based pigpio C++ Library,Please install pigpio C++ Library:
 
 apt install libpigpio-dev pigpio
 
-This Library is Preview Version
+This Library is alpha Version
 
 Welcome to try and offer advice.
 
