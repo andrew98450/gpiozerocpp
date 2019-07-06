@@ -1,5 +1,5 @@
 # gpiozerocpp
-gpiozero C/C++ interface
+gpiozero C/C++ interface with Raspberry Pi
 
 Based pigpio C++ Library,Please install pigpio C++ Library:
 
@@ -8,8 +8,6 @@ apt install libpigpio-dev pigpio
 This Library is alpha Version
 
 Welcome to try and offer advice.
-
-Using Raspberry Pi
 
 Example(PWMLED):
 
