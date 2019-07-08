@@ -1,5 +1,5 @@
 # gpiozerocpp
-gpiozero C/C++ interface
+gpiozero C++ interface
 
 Based pigpio C++ Library,Please install pigpio C++ Library:
 
