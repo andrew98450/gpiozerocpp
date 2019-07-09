@@ -5,17 +5,20 @@ Based pigpio C++ Library,Please install pigpio C++ Library:
 
 apt install libpigpio-dev pigpio
 
-This Library is alpha Version
+This Library is beta Version
 
 Welcome to try and offer advice.
 
 Example(PWMLED):
 
-<image src=https://github.com/andrew98450/gpiozerocpp/blob/0.1-alpha/img/example.png>
+![example](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example.png "")
  
 Example(Buzzer): 
  
-<image src=https://github.com/andrew98450/gpiozerocpp/blob/0.1-alpha/img/example2.png>
+![example2](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example2.png "")
   
-<image src=https://github.com/andrew98450/gpiozerocpp/blob/0.1-alpha/img/example.gif>
+Video Demo(PWMLED):
+
+![video](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example.gif "")
+
 
