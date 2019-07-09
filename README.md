@@ -19,4 +19,4 @@ Video Demo:
 
 ![video](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example.gif "")
 
-![video2](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example2.gif "")
+![video2](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example_servo.gif "")
