@@ -1,6 +1,5 @@
 #ifndef GPIOZEROCPP_H
 #define GPIOZEROCPP_H
-#include <pigpio.h>
 class gpiozerocpp{
     public:
         struct PIN
@@ -38,18 +37,7 @@ class gpiozerocpp{
                             pin_22,pin_23,pin_24,pin_25,
                             pin_26,pin_27,pin_4,pin_5,pin_13};
         };
-        void init_pin()
-        {
-            gpioInitialise();
-        }
-        void clean_pin()
-        {
-            PIN pin;
-            for(int i = 0;i < 17;i++)
-            {
-                gpioWrite(pin.gpio_all[i],0);
-                gpioSetMode(pin.gpio_all[i],PI_INPUT);
-            }
-        }
+        void setup_pin();
+        void clean_pin();
 };
 #endif // GPIOZEROCPP_H

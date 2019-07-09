@@ -1,12 +1,17 @@
 #include <gpiozerocpp/gpiozerocpp.hpp>
-#include <LED.hpp>
-#include <PWMLED.hpp>
-#include <Button.hpp>
-#include <Relay.hpp>
-#include <DistanceSensor.hpp>
-#include <MotionSensor.hpp>
-#include <InputDevice.hpp>
-#include <OutputDevice.hpp>
-#include <Buzzer.hpp>
+#include <pigpio.h>
+void gpiozerocpp::setup_pin()
+{
+    gpioInitialise();
+}
+void gpiozerocpp::clean_pin()
+{
+    gpiozerocpp::PIN pin;
+    for(int i = 0;i < 17;i++)
+    {
+        gpioWrite(pin.gpio_all[i],0);
+        gpioSetMode(pin.gpio_all[i],PI_INPUT);
+    }
+}
 
 

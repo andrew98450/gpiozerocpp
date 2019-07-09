@@ -1,53 +1,16 @@
 #ifndef LED_H
 #define LED_H
-#include <pigpio.h>
-using namespace std;
 class LED
 {
-    protected:
+    private:
         int pin = 0;
+        int init_value = 0;
     public:
-        LED(int pin)
-        {
-           this->pin = pin;
-           gpioSetMode(this->pin,PI_OUTPUT);
-        }
-        void blink(double timeout,int n)
-        {
-            if(n!=0)
-            {
-                while(n>0)
-                {
-                    gpioWrite(pin,0);
-                    time_sleep(timeout);
-                    gpioWrite(pin,1);
-                    time_sleep(timeout);
-                    n--;
-                }
-            }
-            else
-            {
-                while(true)
-                {
-                    gpioWrite(pin,0);
-                    time_sleep(timeout);
-                    gpioWrite(pin,1);
-                    time_sleep(timeout);
-                }
-            }
-        }
-        int getValue()
-        {
-            return gpioRead(pin);
-        }
-        void on()
-        {
-            gpioWrite(pin,1);
-        }
-        void off()
-        {
-            gpioWrite(pin,0);
-        }
+        LED(int pin,int init_value = 0);
+        void blink(double time,int n);
+        int getValue();
+        void on();
+        void off();
 };
 
 #endif // LED_H

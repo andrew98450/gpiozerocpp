@@ -1,36 +1,14 @@
 #ifndef MOTIONSENSOR_H
 #define MOTIONSENSOR_H
-#include <pigpio.h>
 class MotionSensor
 {
-    protected:
+    private:
         int pin = 0;
     public:
-        MotionSensor(int pin)
-        {
-            this->pin = pin;
-            gpioSetPullUpDown(this->pin,PI_PUD_DOWN);
-            gpioSetMode(this->pin,PI_INPUT);
-        }
-        bool motion_detected()
-        {
-            if(gpioRead(pin) == 1)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-        void wait_for_motion(double timeout)
-        {
-            while(motion_detected() != true) { time_sleep(timeout); }
-        }
-        void wait_for_no_motion(double timeout)
-        {
-            while(motion_detected() != false) { time_sleep(timeout); }
-        }
+        MotionSensor(int pin);
+        bool motion_detected();
+        void wait_for_motion(double time);
+        void wait_for_no_motion(double time);
 };
 
 #endif // MOTIONSENSOR_H

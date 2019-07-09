@@ -1,28 +1,14 @@
 #ifndef OUTPUTDEVICE_H
 #define OUTPUTDEVICE_H
-#include <pigpio.h>
 class OutputDevice
 {
-    protected:
+    private:
         int pin = 0;
     public:
-        OutputDevice(int pin)
-        {
-            this->pin = pin;
-            gpioSetMode(this->pin,PI_OUTPUT);
-        }
-        void on()
-        {
-            gpioWrite(pin,1);
-        }
-        void off()
-        {
-            gpioWrite(pin,0);
-        }
-        int getValue()
-        {
-            return gpioRead(pin);
-        }
+        OutputDevice(int pin);
+        void on();
+        void off();
+        int getValue();
 };
 
 #endif // OUTPUTDEVICE_H

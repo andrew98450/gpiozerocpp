@@ -46,12 +46,31 @@
 		<Unit filename="include/gpiozerocpp/inputdevice/Button.hpp" />
 		<Unit filename="include/gpiozerocpp/inputdevice/DistanceSensor.hpp" />
 		<Unit filename="include/gpiozerocpp/inputdevice/InputDevice.hpp" />
+		<Unit filename="include/gpiozerocpp/inputdevice/LineSensor.hpp" />
 		<Unit filename="include/gpiozerocpp/inputdevice/MotionSensor.hpp" />
+		<Unit filename="include/gpiozerocpp/inputdevice/TouchSensor.hpp" />
+		<Unit filename="include/gpiozerocpp/outputdevice/AngularServo.hpp" />
 		<Unit filename="include/gpiozerocpp/outputdevice/Buzzer.hpp" />
 		<Unit filename="include/gpiozerocpp/outputdevice/LED.hpp" />
 		<Unit filename="include/gpiozerocpp/outputdevice/OutputDevice.hpp" />
 		<Unit filename="include/gpiozerocpp/outputdevice/PWMLED.hpp" />
+		<Unit filename="include/gpiozerocpp/outputdevice/RGBLED.hpp" />
 		<Unit filename="include/gpiozerocpp/outputdevice/Relay.hpp" />
+		<Unit filename="include/gpiozerocpp/outputdevice/Servo.hpp" />
+		<Unit filename="src/AngularServo.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Buzzer.cpp" />
+		<Unit filename="src/DistanceSensor.cpp" />
+		<Unit filename="src/InputDevice.cpp" />
+		<Unit filename="src/LED.cpp" />
+		<Unit filename="src/LineSensor.cpp" />
+		<Unit filename="src/MotionSensor.cpp" />
+		<Unit filename="src/OutputDevice.cpp" />
+		<Unit filename="src/PWMLED.cpp" />
+		<Unit filename="src/RGBLED.cpp" />
+		<Unit filename="src/Relay.cpp" />
+		<Unit filename="src/Servo.cpp" />
+		<Unit filename="src/TouchSensor.cpp" />
 		<Unit filename="src/gpiozerocpp.cpp" />
 		<Extensions>
 			<code_completion />

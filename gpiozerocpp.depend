@@ -1,51 +1,98 @@
 # depslib dependency file v1.0
-1562245556 source:/home/pi/Documents/gpiozerocpp/src/gpiozerocpp.cpp
+1562413817 source:/home/pi/Documents/gpiozerocpp/src/gpiozerocpp.cpp
 	<gpiozerocpp/gpiozerocpp.hpp>
-	<LED.hpp>
-	<PWMLED.hpp>
-	<Button.hpp>
-	<Relay.hpp>
-	<DistanceSensor.hpp>
-	<MotionSensor.hpp>
-	<InputDevice.hpp>
-	<OutputDevice.hpp>
-	<Buzzer.hpp>
+	<pigpio.h>
 
 1562064006 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp.hpp
 	<wiringPi.h>
 
 1562051107 /home/pi/Documents/gpiozerocpp/include/LED.hpp
 
-1562051107 source:/home/pi/Documents/gpiozerocpp/src/LED.cpp
-	"LED.hpp"
-
-1562160962 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/gpiozerocpp.hpp
+1562572535 source:/home/pi/Documents/gpiozerocpp/src/LED.cpp
+	<LED.hpp>
 	<pigpio.h>
 
-1562243917 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/LED.hpp
+1562594053 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/gpiozerocpp.hpp
+
+1562569486 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/LED.hpp
+
+1562634206 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/PWMLED.hpp
+
+1562637341 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/DistanceSensor.hpp
+
+1562422751 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/Button.hpp
+
+1562569051 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/Relay.hpp
+
+1562422751 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/MotionSensor.hpp
+
+1562417442 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/InputDevice.hpp
+
+1562569051 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/OutputDevice.hpp
+
+1562569051 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/Buzzer.hpp
+
+1562572934 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/RGBLED.hpp
+
+1562423813 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/LineSensor.hpp
+
+1562417443 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/TouchSensor.hpp
+
+1562548193 source:/home/pi/Documents/gpiozerocpp/src/LineSensor.cpp
+	<LineSensor.hpp>
 	<pigpio.h>
 
-1562243957 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/PWMLED.hpp
+1562422751 source:/home/pi/Documents/gpiozerocpp/src/Button.cpp
+	<Button.hpp>
 	<pigpio.h>
 
-1562239727 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/DistanceSensor.hpp
+1562637305 source:/home/pi/Documents/gpiozerocpp/src/DistanceSensor.cpp
+	<DistanceSensor.hpp>
 	<pigpio.h>
 
-1562230505 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/Button.hpp
+1562413527 source:/home/pi/Documents/gpiozerocpp/src/InputDevice.cpp
+	<InputDevice.hpp>
 	<pigpio.h>
 
-1562243824 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/Relay.hpp
+1562422751 source:/home/pi/Documents/gpiozerocpp/src/MotionSensor.cpp
+	<MotionSensor.hpp>
 	<pigpio.h>
 
-1562240357 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/MotionSensor.hpp
+1562413674 source:/home/pi/Documents/gpiozerocpp/src/TouchSensor.cpp
+	<TouchSensor.hpp>
 	<pigpio.h>
 
-1562241207 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/inputdevice/InputDevice.hpp
+1562414187 source:/home/pi/Documents/gpiozerocpp/src/Buzzer.cpp
+	<Buzzer.hpp>
 	<pigpio.h>
 
-1562244190 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/OutputDevice.hpp
+1562417646 source:/home/pi/Documents/gpiozerocpp/src/OutputDevice.cpp
+	<OutputDevice.hpp>
 	<pigpio.h>
 
-1562246428 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/Buzzer.hpp
+1562569545 source:/home/pi/Documents/gpiozerocpp/src/PWMLED.cpp
+	<PWMLED.hpp>
 	<pigpio.h>
+
+1562418105 source:/home/pi/Documents/gpiozerocpp/src/Relay.cpp
+	<Relay.hpp>
+	<pigpio.h>
+
+1562573172 source:/home/pi/Documents/gpiozerocpp/src/RGBLED.cpp
+	<RGBLED.hpp>
+	<pigpio.h>
+	<iostream>
+	<sstream>
+
+1562635296 source:/home/pi/Documents/gpiozerocpp/src/Servo.cpp
+	<Servo.hpp>
+	<pigpio.h>
+
+1562635296 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/Servo.hpp
+
+1562636319 source:/home/pi/Documents/gpiozerocpp/src/AngularServo.cpp
+	<AngularServo.hpp>
+	<pigpio.h>
+
+1562636296 /home/pi/Documents/gpiozerocpp/include/gpiozerocpp/outputdevice/AngularServo.hpp
 
