@@ -9,16 +9,14 @@ This Library is beta Version
 
 Welcome to try and offer advice.
 
-Example(PWMLED):
+Example:
 
 ![example](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example.png "")
- 
-Example(Buzzer): 
- 
+
 ![example2](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example2.png "")
   
-Video Demo(PWMLED):
+Video Demo:
 
 ![video](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example.gif "")
 
-
+![video2](https://github.com/andrew98450/gpiozerocpp/blob/0.1-beta/img/example2.gif "")
