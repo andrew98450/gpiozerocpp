@@ -1,5 +1,7 @@
 #ifndef RGBLED_H
 #define RGBLED_H
+#include <string>
+using namespace std;
 class RGBLED
 {
     private:
@@ -10,11 +12,11 @@ class RGBLED
         bool pull_up;
         int pin_all[3];
     public:
-        RGBLED(int pin_r,int pin_g,int pin_b,int init_value[],bool pull_up);
+        RGBLED(int pin_r,int pin_g,int pin_b,int init_value[],bool pull_up = true);
         void blink(double time,int r,int g,int b,int n);
         void on();
         void off();
-        void getValue();
+        string getValue();
         void setValue(int r,int g,int b);
 };
 

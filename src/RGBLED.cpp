@@ -2,6 +2,7 @@
 #include <pigpio.h>
 #include <iostream>
 #include <sstream>
+#include <string>
 RGBLED::RGBLED(int pin_r,int pin_g,int pin_b,int init_value[],bool pull_up)
 {
     this->pin_r = pin_r;
@@ -115,16 +116,17 @@ void RGBLED::off()
         gpioWrite(pin_b,0);
     }
 }
-void RGBLED::getValue()
+string RGBLED::getValue()
 {
+    string result = "";
     for(int i=0;i<3;i++)
     {
         int tmp = gpioRead(pin_all[i]);
-        std::stringstream ss;
+        stringstream ss;
         ss << tmp;
-        std::cout << ss.str() << " ";
+        result += ss.str() + " ";
     }
-    std::cout << std::endl;
+    return result;
 }
 void RGBLED::setValue(int r,int g,int b)
 {

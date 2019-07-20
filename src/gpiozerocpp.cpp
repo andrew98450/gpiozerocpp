@@ -6,12 +6,10 @@ void gpiozerocpp::setup_pin()
 }
 void gpiozerocpp::clean_pin()
 {
-    gpiozerocpp::PIN pin;
-    for(int i = 0;i < 17;i++)
-    {
-        gpioWrite(pin.gpio_all[i],0);
-        gpioSetMode(pin.gpio_all[i],PI_INPUT);
-    }
+    gpioTerminate();
 }
-
+void gpiozerocpp::sleep(double time)
+{
+    time_sleep(time);
+}
 
