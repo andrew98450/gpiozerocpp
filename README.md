@@ -17,6 +17,6 @@ Example:
   
 Video Demo:
 
-Servo:
+Servo
 
 ![video](https://github.com/andrew98450/gpiozerocpp/blob/0.1/img/example_servo.gif "")
