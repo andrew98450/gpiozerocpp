@@ -4,16 +4,16 @@ API Main
 1) gpiozerocpp 
    
    - Method:   
-   #) setup_pin()
+      #) setup_pin()
    
-      - Initialization GPIO.
-   #) clean_pin()
+         - Initialization GPIO.
+      #) clean_pin()
    
-      - End GPIO.
-   #) sleep(double time)
+         - End GPIO.
+      #) sleep(double time)
    
-      - Parameter:
+         - Parameter:
 
-        (Double) time: Delay of Time.
+            (Double) time: Delay of Time.
         
-      - Freeze thread.
+         - Freeze thread.
