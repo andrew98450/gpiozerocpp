@@ -7,14 +7,16 @@ API Main
    
    #) setup_pin()
  
-      - Initialization GPIO.
+      #) Initialization GPIO.
+      
    #) clean_pin()
       
-      - End GPIO.
+      #) End GPIO.
+      
    #) sleep(double time)
    
-      - Parameter:
+     #) Parameter:
         
         (Double) time: Delay of Time.
         
-      - Freeze thread.
+     #) Freeze thread.
