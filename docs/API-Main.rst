@@ -2,7 +2,6 @@
 API Main
 ==========
 1) gpiozerocpp 
-
    - Method:
    #) setup_pin()
  
@@ -13,6 +12,7 @@ API Main
    #) sleep(double time)
    
       - Parameter:
+        
         (Double) time: Delay of Time.
         
       - Freeze thread.
