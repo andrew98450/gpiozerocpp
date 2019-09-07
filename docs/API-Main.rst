@@ -16,6 +16,6 @@ API Main
      
      - Parameter:
       
-        - (Double) time: Delay of Time.
+         (Double) time: Delay of Time.
           
      - Freeze thread.
