@@ -15,7 +15,7 @@ API Main
       
    #) sleep(double time)
    
-      - Parameter: 
+      - Parameter:
       
         (Double) time: Delay of Time.
         
