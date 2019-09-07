@@ -7,7 +7,9 @@ Based on pigpio C++ Library
 
 Please install pigpio C++ Library 
 
+::
 Intsaller Command: 
+::
 
 .. code:: apt install libpigpio-dev pigpio 
   
