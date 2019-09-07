@@ -1,15 +1,5 @@
-=================
-About gpiozerocpp
-=================
-gpiozero C++ interface with Raspberry Pi
+.. toctree::
+   :maxdepth: 2
 
-Based pigpio C++ Library,Please install pigpio C++ Library:
-
-apt install libpigpio-dev pigpio
-
-This Library is 0.1-stable Version
-
-Welcome to try and offer advice.
-
-Developer By Huang Andrew
-
+   example
+   rest_eazy
