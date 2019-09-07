@@ -2,9 +2,8 @@
 API Main
 ==========
 1) gpiozerocpp 
-
-- Method:
    
+   - Method:   
    #) setup_pin()
    
       - Initialization GPIO.
