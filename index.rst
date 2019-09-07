@@ -1,6 +1,6 @@
-===========
-gpiozerocpp
-===========
+================
+gpiozerocpp Docs
+================
 gpiozero C++ interface with Raspberry Pi
 
 Based pigpio C++ Library,Please install pigpio C++ Library:
