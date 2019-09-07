@@ -11,8 +11,8 @@ API Main
       
       - End GPIO.
    #) sleep(double time)
+   
       - Parameter:
-        
         (Double) time: Delay of Time.
         
       - Freeze thread.
