@@ -13,7 +13,7 @@ API Main
       3) sleep(double time)
    
          - Parameter:
-
+            
             (Double) time: Delay of Time.
-        
+            
          - Freeze thread.
