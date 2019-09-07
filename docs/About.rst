@@ -9,7 +9,7 @@ Please install pigpio C++ Library
 
 Intsaller Command: 
 ::
-apt install libpigpio-dev pigpio 
+  apt install libpigpio-dev pigpio 
 ::
 
 Welcome to try and offer advice. 
