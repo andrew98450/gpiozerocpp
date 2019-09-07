@@ -4,13 +4,13 @@ API Main
 1) gpiozerocpp 
    
    - Method:   
-      #) setup_pin()
+      1) setup_pin()
    
          - Initialization GPIO.
-      #) clean_pin()
+      2) clean_pin()
    
          - End GPIO.
-      #) sleep(double time)
+      3) sleep(double time)
    
          - Parameter:
 
